@@ -105,7 +105,7 @@ def shorten_url(
     return {
         "original_url": new_url.original_url,
         "short_code": new_url.short_code,
-        "short_url": f"http://localhost:8000/{new_url.short_code}",
+        "short_url": f"https://url-shortner-dfk1.onrender.com/{new_url.short_code}",
         "clicks": new_url.clicks
     }
 
@@ -153,6 +153,6 @@ def get_stats(
     return {
         "original_url": url_entry.original_url,
         "short_code": url_entry.short_code,
-        "short_url": f"http://localhost:8000/{url_entry.short_code}",
+        "short_url": f"https://url-shortner-dfk1.onrender.com/{url_entry.short_code}",
         "clicks": url_entry.clicks
     }
