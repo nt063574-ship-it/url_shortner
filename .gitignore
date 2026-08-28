@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+shortener.db
+.env
+.DS_Store
